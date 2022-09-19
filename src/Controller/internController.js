@@ -38,7 +38,7 @@ const createIntern = async function (req, res) {
             return res.status(400).send({ status: false, msg: "clgName should be a alphabet" })
 
          
-         let clgData = await CollegeModel.findOne({ fullName: clgName })//{id:8787879999999995557 }
+         let clgData = await CollegeModel.findOne({ fullName: clgName })
        
 
 
